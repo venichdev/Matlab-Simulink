@@ -275,5 +275,4 @@ function addScopesAndDisplays(model_name)
     add_line(model_name, 'Energy Monitor/2', 'Energy_Savings_Display/1', 'autorouting', 'on');
 end
 
-%% Run the setup
-setupDriveByWireModel();
+%% To run the setup, call: setupDriveByWireModel()

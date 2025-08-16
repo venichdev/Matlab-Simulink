@@ -610,16 +610,10 @@ function displayScenarioResults(results, scenario_name)
     fprintf('Energy Saved: %.1f%%\n', results.savings_percentage);
 end
 
-%% AUTO-START
-fprintf('\n');
-fprintf('╔════════════════════════════════════════════════════════╗\n');
-fprintf('║   ENERGY-EFFICIENT DRIVE-BY-WIRE DEMO READY!          ║\n');
-fprintf('╚════════════════════════════════════════════════════════╝\n');
-fprintf('\n');
-fprintf('🚀 Quick Start Commands:\n');
-fprintf('───────────────────────\n');
-fprintf('• startPresentation()    - Interactive demo mode\n');
-fprintf('• runEnergyEfficiencyDemo() - Full automated demo\n');
-fprintf('• quickVisualization()   - Quick results preview\n');
-fprintf('\n');
-fprintf('Ready to demonstrate energy optimization! 💚\n');
+%% PRESENTATION HELPER LOADED
+% To see available commands, type: help presentationHelper
+% 
+% Quick Start Commands:
+% • startPresentation()       - Interactive demo mode
+% • runEnergyEfficiencyDemo() - Full automated demo  
+% • quickVisualization()      - Quick results preview

@@ -483,5 +483,4 @@ function exportResults(results)
     fprintf('   • energy_optimization_summary.xlsx\n');
 end
 
-%% EXECUTE DEMO
-runEnergyEfficiencyDemo();
+%% To execute demo, call: runEnergyEfficiencyDemo()

@@ -8,6 +8,9 @@ function [optimized_control, energy_saved, metrics] = energyOptimizer(current_st
         control_mode = 'balanced'; % Options: 'balanced', 'performance', 'economy'
     end
     
+    %% Start timer for response time measurement
+    tic;
+    
     %% Extract current state variables
     vehicle_speed = current_state.speed;           % km/h
     steering_angle = current_state.steering;       % degrees
